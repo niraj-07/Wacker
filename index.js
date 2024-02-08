@@ -59,8 +59,7 @@ function endGame() {
   endGamePopup.style.display = 'flex'; 
   endGamePopup.addEventListener('click', function(event) {
     if (event.target === this) {
-    
-      endGamePopup.style.display = 'none'; /
+      endGamePopup.style.display = 'none'; 
     }
   });
 }
