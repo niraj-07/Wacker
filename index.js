@@ -41,7 +41,7 @@ function peep() {
 
   setTimeout(() => {
     hole.classList.remove('up');
-    if (!timeUp) peep(); // Continue the game until time is up
+    if (!timeUp) peep(); 
   }, time);
 }
 
@@ -56,13 +56,11 @@ function endGame() {
   const endGamePopup = document.getElementById('end-game-popup');
   const endGameMessage = document.getElementById('end-game-message');
   endGameMessage.textContent = `Game Over! Final Score: ${score}`;
-  endGamePopup.style.display = 'flex'; // Show the popup
-
-  // Close the popup if clicked outside
+  endGamePopup.style.display = 'flex'; 
   endGamePopup.addEventListener('click', function(event) {
     if (event.target === this) {
     
-      endGamePopup.style.display = 'none'; // Hide the popup
+      endGamePopup.style.display = 'none'; /
     }
   });
 }
