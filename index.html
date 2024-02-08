@@ -4,15 +4,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="style.css">
- <script  defer src="index.js"></script>
- <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="index.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
   <title>Wacker</title>
 </head>
 <body>
-  <h1 >Whack-Kisaki-Tetta! </h1><h1>Score: <span class="score">0</span></h1>
+  <h1>Whack-Kisaki-Tetta!</h1>
+  <h1>Score: <span class="score">0</span></h1>
+  <h2>Select game-time and enjoy:)</h2>
+  <select id="timer-menu">
+    <option value="10">10 seconds</option>
+    <option value="20">20 seconds</option>
+    <option value="30">30 seconds</option>
+  </select>
   <button onClick="startGame()">Start!</button>
-
+  
+  <div id="end-game-popup">
+    <div id="end-game-message"></div>
+  </div>
   <div class="game">
     <div class="hole hole1">
       <div class="mole"></div>
@@ -33,6 +43,13 @@
       <div class="mole"></div>
     </div>
   </div>
-  <p>Created by: Viper</p>
+  
+
+ 
 </body>
+<footer>
+  <h3>Created by: Niraj Bhattarai</h3>
+  <h3>Contact me on: bniraj2061@gmail.com    ||    </h3> 
+ <a href="https://www.facebook.com/profile.php?id=100077087335076"><img src="facebook.png" alt="Facebook Icon" class="icon-img"></a>
+</footer>
 </html>
