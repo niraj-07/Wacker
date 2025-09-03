@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
-  background: #91ff00e1;
+  background: #586F3D; 
 }
 
 *, *:before, *:after {
@@ -11,7 +11,8 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family:monospace;
+  font-family: monospace;
+  color: #f1f1f1;
 }
 
 h1 {
@@ -22,9 +23,8 @@ h1 {
 }
 
 .score {
-  
   padding: 0 3rem;
-  background: rgba(126, 114, 114, 0.582);
+  background: rgba(0, 0, 0, 0.2);
   color: #fff;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 1rem;
@@ -81,7 +81,7 @@ h1 {
 }
 
 button {
-  background-color: #07662b; 
+  background-color: #07662b;  
   color: white;
   padding: 10px;
   font-size: 16px;
@@ -91,7 +91,7 @@ button {
 }
 
 button:hover {
-  background-color: #004d20; /* Darker green on hover */
+  background-color: #004d20;
 }
 
 p{
@@ -121,23 +121,22 @@ p{
   color: #f00;
 }
 .icon-img {
-  width: 30px; /* Adjust the width as per your design */
-  height: 30px; /* Maintain aspect ratio */
-
- cursor: pointer;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }
 footer{
   width: 100%;
   background-color: rgb(73, 72, 72);
-height: 50px;
+  height: 50px;
   margin-top: 5px;
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
-color: #fff;
- 
+  color: #fff;
 }
 footer >*{
   padding: 8px;
 }
+
